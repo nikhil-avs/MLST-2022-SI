@@ -1,0 +1,35 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SI-code ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; ML MODELS SUBMITTED AS SUPPORTING INFO FOR REVIEW OF THE MANUSCRIPT 
+; Building Robust Machine Learning Models for Small Chemical Science Data: The Case of Shear Viscosity of Fluids
+; FILE CREATED ON  : 23 MAY 22
+; FILE MODIFIED ON : 23 MAY 22
+
+FOLDERS INCLUDED IN THIS SUPPORTING INFORMATION:
+
+-> README : this file
+
+-> tfenv.yml : use this to create a conda environment with numpy, scipy, pandas, sklearn, tensorflow, keras etc.
+
+-> data/ : Data files used in this work. 
+vlugt-1059points.csv contains the data from the work of Vlugt et al. (See manuscript)
+interp-all17-04aug22.csv contains the data (17 points) from this work.
+interp-accepted13-04aug22.csv contains the interpolations points within Applicability Domain.
+interp-rejected4-04aug22.csv contains the interpolations points outside Applicability Domain.
+
+-> mpl-templates/ : matplotlib template files for generating nice figures.
+
+-> 1-LASSO/ : LASSO model development and performance estimation. Estimated time: 10min
+
+-> 2-KRR/ : KRR model development and performance estimation. Estimated time: 45min
+
+-> 3-SVR/ : SVR model development and performance estimation. Estimated time: 120min
+
+-> 4-RF/ : RF model development and performance estimation. Estimated time: 300min
+
+-> 5-KNN/ : KNN model development and performance estimation.  Estimated time: 60min
+
+-> 6-GPR/ : GPR model development and performance estimation. Estimated time: 60min
+
+-> 7-ANN/1-test-single-ANN : ANN model development. Estimated time: 24hrs (Using a GPU)
+-> 7-ANN/ : ANN model performance estimation. Estimated time: 30min
